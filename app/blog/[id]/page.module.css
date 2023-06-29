@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.imgContainer {
+  width: 600px;
+  height: 250px;
+  position: relative;
+}
+.smDesc {
+  flex: 1;
+}
+.image {
+  object-fit: cover;
+}

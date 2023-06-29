@@ -1,0 +1,26 @@
+.mainContainer {
+  display: flex;
+  gap: 50px;
+  margin: 40px 0;
+}
+.content {
+  flex: 2;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 40px;
+}
+.desc {
+  margin: 20px 0;
+}
+.imgContainer {
+  flex: 1;
+  height: 300px;
+  width: 600px;
+  position: relative;
+}
+
+.image {
+  object-fit: cover;
+}
